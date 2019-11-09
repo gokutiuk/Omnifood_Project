@@ -1,0 +1,162 @@
+
+/* Screens from 1200px ( because row is 1140px)*/
+@media only screen and (max-width: 1200px){
+    
+.hero-text {
+    width: 100%;
+    padding: 0 2%;}
+    
+ .row { padding: 0 2%; }    
+}
+
+/* Screens from 768 to 1023 px */
+
+@media only screen and (max-width: 1023px){
+    
+    body { font-size: 18px};
+    
+    section {padding: 60px 0;}
+    
+    .long-copy {  
+    width: 80%;
+    margin-left: 10%;
+    }
+    
+    .steps-box { margin-top: 10px;}    
+    
+    .steps-box:first-child {
+    
+    padding-right: 5%;
+    margin-top: 20px;
+    }
+
+    
+    .steps-box:last-child { margin-top: 20px; }
+    
+    .work-steps:last-of-type { margin-bottom: 100px;} 
+
+    .work-steps { margin-bottom: 50px;}
+    
+    .app-screen {  width: 50%; }
+    
+    .icon-small { 
+        font-size: 16px;
+        margin-right: 3px;
+
+    }
+    
+    .city-feature { font-size: 90%}
+    
+    cite {font-size: 80% }
+    
+    .plan-box {
+    width: 100%;
+    margin-left: 0;
+    }
+    
+    .plan-price {font-size: 250%;}
+    
+    .contact-form { width: 80%;}    
+    
+    footer { padding: 30px;}
+    
+    .footer-nav { width: 120%}
+    
+    .ion-social-twitter,
+    .ion-social-facebook,
+    .ion-social-googleplus,
+    .ion-social-instagram {font-size: 80%}
+
+    
+ 
+    
+    
+}
+
+/* Screens from 481 to 767 px */
+@media only screen and (max-width: 767px){
+    body { font-size: 16px; }
+    section { padding: 38px 0; }
+    
+    .row,
+    .hero-text { padding:0 4%; } 
+    .col {
+    width:100%;
+    margin: 0 0 4% 0;}
+    
+    
+    /* --- navigation --- */
+    .main-nav {display: none;}
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+        /* --- Sticky navigation --- */
+
+    .sticky .main-nav { margin-top: 10px;}
+
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+
+    .sticky .logo {display: none;}
+    .sticky .logo-black {display: block;}
+    .sticky .mobile-nav-icon i {margin-top: 10px;}
+    .sticky .mobile-nav-icon i {color:#555;}
+
+    
+    .box p {
+    line-height: 145%;
+    font-size: 100%;
+    }
+    
+    h1 {font-size: 150%;}
+    h2 {font-size: 150%;}
+    
+    .long-copy {
+    width: 100%;
+    margin-left: 0%;
+    }
+    
+    .work-steps div {
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    padding: 4px;
+    margin-bottom:10px;
+   }
+    
+    .steps-box:first-child {
+    text-align: center;    
+    }
+    
+   block {
+    padding: 0;
+    margin: 0;
+    }
+    
+
+
+    
+}
+/* Screens from 0 to 480 px */
+@media only screen and (max-width: 480px){
+    h1 { font-size: 90%;}    
+    .main-nav { display: none;} 
+}
